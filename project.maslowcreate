@@ -113,8 +113,8 @@
                     "BOMitem": {
                         "BOMitemName": "45MM M4 Bolt",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.2876,
+                        "source": "https://www.mcmaster.com/91502a134",
                         "totalNeeded": 0
                     }
                 },
