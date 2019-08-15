@@ -38,13 +38,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 423,
-                    "y": 79,
+                    "x": 426,
+                    "y": 86,
                     "uniqueID": 934600,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -64,8 +64,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 593,
-                    "y": 154,
+                    "x": 614,
+                    "y": 184,
                     "uniqueID": 354558,
                     "ioValues": [
                         {
@@ -85,12 +85,20 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 788,
-                    "y": 124,
+                    "x": 755,
+                    "y": 92,
                     "uniqueID": 408079,
                     "ioValues": [
                         {
                             "name": "3D shape 112977",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 310552",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 726084",
                             "ioValue": 10
                         }
                     ]
@@ -103,8 +111,8 @@
                     "uniqueID": 424617,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
+                        "BOMitemName": "45MM M4 Bolt",
+                        "numberNeeded": 1,
                         "costUSD": 0,
                         "source": "www.example.com",
                         "totalNeeded": 0
@@ -131,12 +139,34 @@
                     "ap1ID": 353235,
                     "ap2ID": 339567
                 },
-                null,
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 112977",
+                    "ap1ID": 934600,
+                    "ap2ID": 408079
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 339567,
                     "ap2ID": 354558
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 310552",
+                    "ap1ID": 354558,
+                    "ap2ID": 408079
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 408079,
+                    "ap2ID": 424617
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 424617
                 }
             ],
             "fileTypeVersion": 1
