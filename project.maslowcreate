@@ -96,12 +96,9 @@
                         {
                             "name": "3D shape 310552",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 726084",
-                            "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -122,7 +119,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
