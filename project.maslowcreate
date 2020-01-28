@@ -101,21 +101,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 915,
-                    "y": 103,
-                    "uniqueID": 424617,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "45MM M4 Bolt",
-                        "numberNeeded": 1,
-                        "costUSD": 0.2876,
-                        "source": "https://www.mcmaster.com/91502a134",
-                        "totalNeeded": 0
-                    }
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -127,43 +112,43 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 252729,
                     "ap2ID": 934600
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 353235,
                     "ap2ID": 339567
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 112977",
+                    "ap2Primary": false,
                     "ap1ID": 934600,
                     "ap2ID": 408079
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 339567,
                     "ap2ID": 354558
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 310552",
+                    "ap2Primary": false,
                     "ap1ID": 354558,
                     "ap2ID": 408079
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 408079,
-                    "ap2ID": 424617
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 424617
+                    "ap2Primary": false,
+                    "ap1ID": 408079
                 }
             ],
             "fileTypeVersion": 1
